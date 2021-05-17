@@ -1,0 +1,31 @@
+@import "../variables.module.scss";
+
+.container {
+  justify-content: center;
+  color: $light-grey;
+
+  .filterBtnContainer {
+    background-color: $black-russian;
+    button {
+      height: 32px;
+      border-radius: 20px;
+      background-color: inherit;
+      color: $light-grey;
+
+      &[data-active] {
+        background-color: $jaguar;
+      }
+    }
+  }
+
+  .spinner {
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menuContainer {
+    background-color: $black-russian;
+  }
+}

@@ -1,0 +1,41 @@
+@import "./variables.module.scss";
+
+.container {
+  background-color: $black-russian;
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    height: 49px;
+    margin-top: 8px;
+
+    input {
+      font-size: 14px;
+      border: 1px solid $cod-grey;
+      background-color: $jaguar;
+      width: 100%;
+      max-width: 656px;
+      color: $light-grey;
+    }
+
+    .menuContainer {
+      border: 1px solid $cod-grey;
+      background-color: $black-russian;
+
+      p {
+        color: $aluminium;
+      }
+
+      a {
+        color: $light-grey;
+
+        &:hover,
+        &:active,
+        &:focus-within {
+          color: $black-russian;
+          background-color: $light-grey;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "../variables.module.scss";
+
+.container {
+  background-color: $black-russian;
+  border: 1px solid #474748;
+  border-radius: 4px;
+
+  hr {
+    border-color: $cod-grey;
+  }
+}

@@ -1,0 +1,83 @@
+@import "../variables.module.scss";
+
+.container {
+  color: $light-grey;
+  width: 100%;
+  max-width: 640px;
+
+  .post {
+    background-color: $black-russian;
+    border: 1px solid $cod-grey;
+    border-radius: 5px;
+    max-width: 640px;
+
+    .title {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    &:hover {
+      border: 1px solid $aluminium;
+    }
+
+    img {
+      width: 80px;
+      height: 60px;
+      border-radius: 4px;
+      border-color: $cod-grey;
+      margin: auto;
+      object-fit: cover;
+    }
+
+    svg {
+      height: 100%;
+      margin: auto;
+    }
+  }
+
+  .voteBtn {
+    width: 24px;
+    height: 24px;
+    background-color: inherit;
+
+    &:hover,
+    &:active {
+      background-color: inherit;
+    }
+  }
+
+  .cardBtnContainer {
+    button {
+      width: auto;
+      height: 32px;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      background-color: inherit;
+      font-size: 12px;
+      padding: 2px;
+      &:hover,
+      &:active {
+        background-color: #d7dadc1a;
+      }
+    }
+
+    .menuContainer {
+      background-color: $black-russian;
+      border: 1px solid $cod-grey;
+      width: 20px;
+      max-width: 20px;
+
+      button {
+        width: 100%;
+        color: $light-grey;
+
+        &:hover,
+        &:active {
+          color: $black-russian;
+          background-color: $light-grey;
+        }
+      }
+    }
+  }
+}
